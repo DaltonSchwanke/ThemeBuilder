@@ -1,0 +1,70 @@
+# ----------------------------
+# OS / System files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Environment / secrets
+# ----------------------------
+*.env
+.env
+server/.env
+.supabase/
+
+# ----------------------------
+# Go (backend)
+# ----------------------------
+backend/bin/
+backend/tmp/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace / tooling
+go.work
+go.work.sum
+
+# ----------------------------
+# Node / Angular (frontend)
+# ----------------------------
+frontend/**/node_modules/
+frontend/**/dist/
+frontend/**/.angular/
+frontend/**/coverage/
+frontend/**/package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# ----------------------------
+# IDE / Editor junk
+# ----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# ----------------------------
+# Docker
+# ----------------------------
+docker-compose.override.yml
+docker-compose.local.yml
